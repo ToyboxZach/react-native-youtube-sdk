@@ -50,7 +50,7 @@ public class FullscreenPlayerActivity extends AppCompatActivity {
   }
 
   private void initYouTubePlayer() {
-    youTubePlayerView.getPlayerUiController().showYouTubeButton(false);
+    
     youTubePlayerView.enterFullScreen();
 
     youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {

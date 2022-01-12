@@ -58,11 +58,7 @@ public class YouTubeView extends FrameLayout {
   @Override
   protected void onAttachedToWindow() {
     super.onAttachedToWindow();
-    youTubePlayerView.getPlayerUiController()
-        .showYouTubeButton(false)
-        .showFullscreenButton(youTubePlayerProps.isShowFullScreenButton())
-        .showSeekBar(youTubePlayerProps.isShowSeekBar())
-        .showPlayPauseButton(youTubePlayerProps.isShowPlayPauseButton());
+   
   }
 
   @Override
